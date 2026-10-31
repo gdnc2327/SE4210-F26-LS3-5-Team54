@@ -1,1 +1,5 @@
-# SE4210-F26-LS3-5-Team54
+# Learning Sprint 3 Problem 5
+
+## Team 54
+
+A visualization of an Algorithmic Complexity Attack (AC Attack)
