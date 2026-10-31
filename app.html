@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Team 54">
+	<title>Login Side Channel Vulnerabililty Visualization</title>
+	<script src="app.js" defer></script>
+	<style>
+		body {
+			background-color: #131313;
+			color: white;
+			text-align: center;
+		}
+		.login {
+			font-family: "Georgia", serif;
+		}
+		.success {
+			color: lime;
+		}
+		.failure {
+			color: red;
+		}
+		.time-taken {
+			font-family: monospace, monospace;
+		}
+	</style>
+</head>
+<body>
+	<div class="login">
+		<form>
+			<div>
+				<label for="email-input">Email: </label>
+				<input type="email" id="email-input">
+			</div>
+			<div>
+				<label for="password-input">Password: </label>
+				<input type="password" id="password-input">
+			</div>
+			<button type="button" id="login-button">Log In</button>
+			<p id="login-result"></p>
+		</form>
+	</div>
+	<div id="time-taken"></div>
+</body>
+</html>
