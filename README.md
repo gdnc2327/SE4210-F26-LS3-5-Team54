@@ -2,4 +2,4 @@
 
 ## Team 54
 
-A visualization of an Algorithmic Complexity Attack (AC Attack)
+A visualization of a Login Side Channel Attack
